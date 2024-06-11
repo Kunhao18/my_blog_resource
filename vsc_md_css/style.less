@@ -32,6 +32,7 @@
   }
 
   h3 {
+    display: initial;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -46,6 +47,28 @@
     height: 20px;
   }
 
+  h4 {
+    display: initial;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, transparent 60%, #777) no-repeat;
+  }
+
+  h4:before {
+    content: "";
+    display: block;
+    height: 14px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   a {
     border-bottom: 1px solid #999;
     color: var(--link-color);
@@ -53,6 +76,11 @@
     outline: 0;
     text-decoration: none;
     overflow-wrap: break-word;
+  }
+
+  u {
+    background: linear-gradient(to bottom, transparent 60%, #ffeaa7 0) no-repeat;
+    text-decoration: none;
   }
 
   ul {
